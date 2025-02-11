@@ -9,7 +9,7 @@ from ragas.llms import LangchainLLMWrapper
 from ragas.testset import TestsetGenerator
 
 os.environ[
-    "OPENAI_API_KEY"] = "provide open API key here"
+    "OPENAI_API_KEY"] = ""
 os.environ["RAGAS_APP_TOKEN"] = "apt.4526-7a8a3c34c95e-ec88-b132-1553d88c-66959"
 
 
