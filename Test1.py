@@ -12,7 +12,7 @@ from ragas.metrics import LLMContextPrecisionWithoutReference
 async def test_contextPrecision():
     # create object of a class for that specific metric
     os.environ[
-        "OPENAI_API_KEY"] = ""
+        "OPENAI_API_KEY"] = "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"
     llm = ChatOpenAI(model="gpt-4", temperature=0)   #llm object is created
     langChain_llm = LangchainLLMWrapper(llm)         #llm object is converted to RAGAS standard
     contextPrecision = LLMContextPrecisionWithoutReference(llm=langChain_llm)
