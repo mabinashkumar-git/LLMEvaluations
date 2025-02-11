@@ -7,7 +7,7 @@ from ragas.llms import LangchainLLMWrapper
 # This is a global file which all test can access
 
 os.environ[
-    "OPENAI_API_KEY"] = "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"
+    "OPENAI_API_KEY"] = "provide open api key here"
 
 @pytest.fixture
 def llmWrapper():
